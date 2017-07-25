@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.first_day.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안녕하세요 "
+        android:id="@+id/textView"
+
+        android:layout_marginStart="3dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintLeft_toLeftOf="@+id/button"
+        android:layout_marginLeft="3dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="129dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="185dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="129dp" />
+
+
+</android.support.constraint.ConstraintLayout>
