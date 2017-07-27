@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="80dip"
+            android:layout_height="80dip" android:gravity="center">
+
+            <ImageView
+                android:id="@+id/left_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" android:layout_weight="1" android:gravity="center">
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="친구이름" android:textSize="25sp" android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/phone_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="010-1234-1234" android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="80dip"
+            android:layout_height="80dip" android:gravity="center">
+
+            <Button
+                android:id="@+id/sendBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dip"
+                android:text="전화걸기"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

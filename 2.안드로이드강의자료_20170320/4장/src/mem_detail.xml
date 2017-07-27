@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+  		    android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:text="@string/sReg"
+    		android:textSize="30sp"
+    		android:gravity="center_horizontal"/>
+    
+   <LinearLayout 
+     	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:gravity="center_horizontal" >
+    	
+  		<TextView 
+  		    android:layout_width="100dip"
+    		android:layout_height="wrap_content"
+    		android:text="@string/sName"/>
+  		<TextView
+  		    android:id="@+id/tName"
+  		    android:layout_width="200dip"
+    		android:layout_height="wrap_content" />     
+   </LinearLayout>  
+ <LinearLayout 
+     	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:gravity="center_horizontal" >
+    	
+  		<TextView 
+  		    android:layout_width="100dip"
+    		android:layout_height="wrap_content"
+    		android:text="@string/sAddress"/>
+  		<TextView
+  		    android:id="@+id/tAddress"
+  		    android:layout_width="200dip"
+    		android:layout_height="wrap_content" />     
+   </LinearLayout> 
+    <LinearLayout 
+     	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:gravity="center_horizontal" >
+    	
+  		<TextView 
+  		    android:layout_width="100dip"
+    		android:layout_height="wrap_content"
+    		android:text="@string/sAge"/>
+  		<TextView
+  		    android:id="@+id/tAge"
+  		    android:layout_width="200dip"
+    		android:layout_height="wrap_content" />     
+   </LinearLayout> 
+</LinearLayout>

@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>javascriptTest</title>
+<script type="text/javascript">
+ function sendMessage(str){
+	 window.android.callAndroid(str);
+ }
+ 
+ function communicate(str){
+	 tMsg=document.getElementById('msg');
+	 tMsg.value='hello';
+ }
+ 
+ function reload(){
+	 location.reload(true );
+ }
+</script>
+</head>
+<body bgcolor="#ffff33">
+ <form>
+ <input type="button"  size="10" value="안드로이드 메소드 호출" onClick="sendMessage('안녕하세요')"><br>
+ <input type="text"  size="10" id="msg" name="msg" value="data"> <br>
+ <input type="button"  size="10" value="페이지 갱신" onClick="reload()"><br>
+ </form>
+</body>
+</html>
+

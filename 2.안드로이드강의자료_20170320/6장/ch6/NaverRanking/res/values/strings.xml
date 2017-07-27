@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, NaverRankingActivity!</string>
+    <string name="app_name">네이버 실시간 검색어</string>
+</resources>

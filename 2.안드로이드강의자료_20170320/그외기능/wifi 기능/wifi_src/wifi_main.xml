@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+    <Switch
+        android:id="@+id/wifi_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:background="@android:color/background_dark"
+        android:checked="false"
+        android:text="Wi-Fi Settings"
+        android:textColor="@android:color/white"
+        android:textOff="OFF"
+        android:textOn="ON" />
+     <Button 
+        android:id="@+id/btnclose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wifi주소 얻기"
+        android:onClick="getIPAddress" />
+     
+ <Button 
+        android:id="@+id/btnclose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3G IP Address"
+        android:onClick="getLocalIpAddress" />
+</LinearLayout>
+

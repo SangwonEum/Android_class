@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="androidbook.ch03"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Main"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SampleActivity"></activity>
+        
+        <activity android:name=".layout.LayoutActivity"></activity>
+        
+        <activity android:name=".layout.linearlayout.LinearlayoutActivity"></activity>
+        <activity android:name=".layout.linearlayout.BasicLinearLayout"></activity>
+        <activity android:name=".layout.linearlayout.ReiterationLinearLayout"></activity>
+        <activity android:name=".layout.linearlayout.SizeLinearLayout"></activity>
+        <activity android:name=".layout.linearlayout.WeightLinearLayout"></activity>
+        
+        <activity android:name=".layout.framelayout.FrameLayoutActivity"></activity>
+        <activity android:name=".layout.framelayout.BasicFrameLayout"></activity>
+        <activity android:name=".layout.framelayout.ForegroundFrameLayout"></activity>
+        <activity android:name=".layout.framelayout.ForegroundGravityFrameLayout"></activity>
+
+		<activity android:name=".layout.relativelayout.RelativeLayoutActivity"></activity>
+		<activity android:name=".layout.relativelayout.BasicRelativeLayout"></activity>
+        <activity android:name=".layout.relativelayout.ComplexRelativeLayout"></activity>
+        
+        <activity android:name=".layout.tablelayout.TableLayoutActivity"></activity>
+        
+        <activity android:name=".layout.tablayout.TabLayoutActivity"></activity>
+        
+        <activity android:name=".widget.WidgetActivity"></activity>
+        
+        <activity android:name=".widget.textview.TextViewActivity"></activity>
+        
+        <activity android:name=".widget.edittext.EditTextActivity"></activity>
+        
+        <activity android:name=".widget.button.BasicButton"></activity>
+        <activity android:name=".widget.button.ButtonActivity"></activity>
+        <activity android:name=".widget.button.ClickListenerButton"></activity>
+        
+        <activity android:name=".widget.nameapplication.NameApplication"></activity>
+        
+        <activity android:name=".widget.imageview.ImageViewActivity"></activity>
+        <activity android:name=".widget.imageview.BasicImageView"></activity>
+        <activity android:name=".widget.imageview.ComplexImageView"></activity>
+        
+        <activity android:name=".widget.radiobutton.RadioButtonActivity"></activity>
+        
+        <activity android:name=".widget.checkbox.CheckBoxActivity"></activity>
+        
+        <activity android:name=".widget.pizza.PizzaActivity"></activity>
+        
+        <activity android:name=".highrankwidget.HighRankWidget"></activity>
+        <activity android:name=".highrankwidget.listview.ListViewActivity"></activity>
+        <activity android:name=".highrankwidget.listview.BasicListView"></activity>
+        <activity android:name=".highrankwidget.listview.ComplexListView"></activity>
+        
+        <activity android:name=".highrankwidget.gallery.GalleryActivity"></activity>
+        <activity android:name=".highrankwidget.gallery.BasicGallery"></activity>
+        <activity android:name=".highrankwidget.gallery.ComplexGallery"></activity>
+        
+        <activity android:name=".highrankwidget.gridview.GridViewActivity"></activity>
+        <activity android:name=".highrankwidget.gridview.BasicGridView"></activity>
+        <activity android:name=".highrankwidget.gridview.ComplexGridView"></activity>
+        
+</application>
+
+
+</manifest> 

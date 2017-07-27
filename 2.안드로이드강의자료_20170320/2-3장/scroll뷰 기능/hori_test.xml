@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <Button 
+        android:id="@+id/btn1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="이미지 변경1"  />
+    <Button 
+        android:id="@+id/btn2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="이미지 변경2"  />
+    </LinearLayout>
+   <ScrollView 
+	  android:id="@+id/SpreadVScroll"
+	  android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	    android:scrollbarSize="12dip" 
+	   android:scrollbarThumbHorizontal="@drawable/scrollbar_hori_thumb"
+	   android:scrollbarTrackHorizontal="@drawable/scrollbar_hori_track"
+	   android:fastScrollEnabled="true">
+<HorizontalScrollView
+  android:id="@+id/hscroll"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+      <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#CEF279"
+            android:text="첫번째 텍스트 뷰입니다." />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chry"  />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFE08C"
+            android:text="두번째 텍스트 뷰입니다." />
+         <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/desert"  />
+         
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#D1B2FF"
+            android:text="세번째 텍스트 뷰입니다." />
+</LinearLayout>
+</HorizontalScrollView>
+</ScrollView>
+
+</LinearLayout>

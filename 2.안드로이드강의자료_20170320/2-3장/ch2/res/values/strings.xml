@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SampleMain!</string>
+    <string name="button_name">버튼</string>
+    <string name="click_text">클릭</string>
+    <string name="app_name">샘플</string>
+</resources>

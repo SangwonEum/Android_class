@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+  <string name="app_name">메모장</string>
+  <string name="add_new">새메모</string>
+  <string name="remove">메모삭제</string>
+  <string name="cancel">작성취소</string>
+</resources>
